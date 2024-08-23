@@ -1,0 +1,81 @@
+.logo-imagem{
+    height: auto;
+    max-width: 150px;
+}
+
+.navbar, .btn{
+    background-color: #624024;
+    color: white;
+}
+
+.alert-link {
+    color: shade-color(red, 20%);
+  }
+  
+.btn-lgpd{
+    background-color: #624024;
+    color: white;
+    width: 24%;
+    border: none;
+    border-radius: 5px;
+}
+
+a{
+    color: #624024;
+}
+
+a:hover{
+    color: #77583f;
+}
+
+.titulo-tabela{
+    margin-top: 1em;
+    color: #624024;
+}
+.form-check-input:checked{
+    background-color: #624024;
+    color: #624024;
+    border-color: #624024;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+@font-face {
+    font-family: 'Kastellar';
+    src: url('fontes/castellar.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fontes/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    color: #ecdc8f;
+    background-color: #624024;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+h3{
+    font-family: 'Kastellar', sans-serif;
+    margin: 0;
+}
+
+h6{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
